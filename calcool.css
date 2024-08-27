@@ -1,0 +1,60 @@
+h1{
+    background-color: rebeccapurple;
+    text-align: center;
+    color: wheat;
+    max-width: 80%;
+    margin: 10px;
+    font-size: 40px;
+    margin-left: 5%;
+}
+p{
+    color: blueviolet;
+    text-align: center;
+}
+form{
+    text-align: center;
+}
+form input{
+    max-width: fit-content;
+    height: 24px;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 400px){
+
+    body{
+        font-size: 30px;
+    }
+    h1{
+        font-size: 33px;
+        line-height: 1;
+        max-width: 100%;
+        border-radius: 5px;
+        padding-top: 5px;
+        padding: 0;
+    }
+
+    p{
+        font-size: 20px;
+    }
+    form{
+        font-size: 20px;
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+    }
+    form input{
+        max-width: 100px;
+        height: 30px;
+        border-radius: 5px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    h4{
+        font-size: 30px;
+    }
+}
